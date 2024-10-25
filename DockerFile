@@ -15,6 +15,5 @@ RUN if [ -f "composer.json" ]; then composer install; fi
 
 # Expose le port 80 pour accéder à l'application
 EXPOSE 80
-
 # Commande de démarrage de l'application
 CMD ["php -S 127.0.0.1:8000"]
